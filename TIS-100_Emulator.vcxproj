@@ -76,7 +76,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="instruction.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="register.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="instruction.h" />
+    <ClInclude Include="node.h" />
+    <ClInclude Include="register.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
