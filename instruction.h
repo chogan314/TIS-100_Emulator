@@ -57,4 +57,21 @@ private:
 	ExecuteParamFunc<T> onExecute;
 };
 
+Instruction *GenMOV(int index, Node *node, ValueRegisterParam param);
+Instruction *GenMOV(int index, Node *node, RegisterRegisterParam param);
+Instruction *GenSWP(int index, Node *node);
+Instruction *GenSAV(int index, Node *node);
+Instruction *GenADD(int index, Node *node, int param);
+Instruction *GenADD(int index, Node *node, RegisterParam param);
+Instruction *GenSUB(int index, Node *node, int param);
+Instruction *GenSUB(int index, Node *node, RegisterParam param);
+Instruction *GenNEG(int index, Node *node);
+Instruction *GenJMP(int index, Node *node, int nextIndex);
+Instruction *GenJEZ(int index, Node *node, int nextIndex);
+Instruction *GenJNZ(int index, Node *node, int nextIndex);
+Instruction *GenJGZ(int index, Node *node, int nextIndex);
+Instruction *GenJLZ(int index, Node *node, int nextIndex);
+Instruction *GenJRO(int index, Node *node, int offset);
+Instruction *GenJRO(int index, Node *node, RegisterParam offset);
+
 #endif

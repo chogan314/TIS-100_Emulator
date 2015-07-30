@@ -78,6 +78,7 @@
   <ItemGroup>
     <ClCompile Include="instruction.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="node.cpp" />
     <ClCompile Include="register.cpp" />
   </ItemGroup>
   <ItemGroup>
