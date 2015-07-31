@@ -77,13 +77,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="instruction.cpp" />
+    <ClCompile Include="instruction_parse.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="node.cpp" />
+    <ClCompile Include="node_parse.cpp" />
+    <ClCompile Include="parser.cpp" />
+    <ClCompile Include="program_parse.cpp" />
     <ClCompile Include="register.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="instruction.h" />
+    <ClInclude Include="instruction_parse.h" />
     <ClInclude Include="node.h" />
+    <ClInclude Include="node_parse.h" />
+    <ClInclude Include="parser.h" />
+    <ClInclude Include="program_parse.h" />
     <ClInclude Include="register.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
