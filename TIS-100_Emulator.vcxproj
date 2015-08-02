@@ -82,6 +82,7 @@
     <ClCompile Include="node.cpp" />
     <ClCompile Include="node_parse.cpp" />
     <ClCompile Include="parser.cpp" />
+    <ClCompile Include="program.cpp" />
     <ClCompile Include="program_parse.cpp" />
     <ClCompile Include="register.cpp" />
   </ItemGroup>
@@ -91,6 +92,7 @@
     <ClInclude Include="node.h" />
     <ClInclude Include="node_parse.h" />
     <ClInclude Include="parser.h" />
+    <ClInclude Include="program.h" />
     <ClInclude Include="program_parse.h" />
     <ClInclude Include="register.h" />
   </ItemGroup>

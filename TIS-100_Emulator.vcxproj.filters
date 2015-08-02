@@ -45,6 +45,9 @@
     <ClCompile Include="program_parse.cpp">
       <Filter>Source Files\Parsing</Filter>
     </ClCompile>
+    <ClCompile Include="program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="register.h">
@@ -67,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="instruction_parse.h">
       <Filter>Header Files\Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="program.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

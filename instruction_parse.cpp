@@ -67,6 +67,11 @@ void InstructionParse::SetValue(int value)
 	this->value = value;
 }
 
+void InstructionParse::SetLabel(const std::string &label)
+{
+	jmpLabel = label;
+}
+
 Register *InstructionParse::FindRegister(RegisterName name, Node *node, bool isOutput)
 {
 	Register *reg;

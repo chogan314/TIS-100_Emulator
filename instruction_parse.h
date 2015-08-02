@@ -46,6 +46,7 @@ public:
 	void SetLHSRegister(RegisterName registerName);
 	void SetRHSRegister(RegisterName registerName);
 	void SetValue(int value);
+	void SetLabel(const std::string &label);
 
 private:
 	OperationType operationType;

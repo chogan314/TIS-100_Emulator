@@ -11,7 +11,7 @@ public:
 
 	Node *CreateNode();
 
-	void AddLabel(std::string label, int index);
+	void AddLabel(std::string label);
 	void AddInstruction(InstructionParse *instruction);
 
 private:

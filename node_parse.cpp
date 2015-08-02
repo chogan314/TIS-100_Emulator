@@ -19,9 +19,9 @@ Node *NodeParse::CreateNode()
 	return node;
 }
 
-void NodeParse::AddLabel(std::string label, int index)
+void NodeParse::AddLabel(std::string label)
 {
-	labelDict[label] = index;
+	labelDict[label] = instructionParses.size();
 }
 
 void NodeParse::AddInstruction(InstructionParse *instruction)
